@@ -7,11 +7,16 @@
     <title>Document</title>
     <style>
         body {
+            padding-top: 100px;
             margin: 0;
             font-family: 'Segoe UI', sans-serif;
-            overflow:hidden;
+            overflow:visible;
         }
         header {
+            position: fixed;
+            top: 0;
+            width: 98%;
+            height: 80px;
             background-color: #1f1f1f;
             color: #00d9ff;
             padding: 10px 20px;
@@ -81,6 +86,45 @@
             width: 100%;
             height: 100dvh;
         }
+        .my-projects {
+            background-color: #252525;
+            color :#00d9ff;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 600;
+            padding: 20px;
+            padding-bottom: 20px;
+            text-decoration: underline;
+        }
+        .fluxova {
+            background-color: #1f1f1f;
+            color: #aaff00;
+            font-size: 38px;
+            font-weight: 600;
+            text-align: left;
+            padding: 30px;
+        }
+        .fluxova p {
+            background-color: #1f1f1f;
+            color: #aaff00;
+            font-size: 28px;
+            font-weight: 600;
+            text-align: left;
+        }
+        .fluxova a {
+            background-color: #1f1f1f;
+            color: #aaff00;
+            font-size: 28px;
+            font-weight: 600;
+            text-align: left;
+        }
+        .footer {
+            background-color: #252525;
+            color: #00d9ff;
+            font-size: 28px;
+            font-weight: 600;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -89,8 +133,7 @@
             <div class="logo">KiwiCoder266</div>
             <ul class="navlinks">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
         </div>
     </header>
@@ -106,12 +149,24 @@
         </div>
         <div class="why-did-i-do-this">
             <h>Why did I do this?</h>
-            <p>I decided to to this to test my skills in HTML and CSS so that I could see how nice of a website I could make. My friend Theo helped me with the navigation bar.</p>
+            <p>I decided to to this to test my skills in HTML and CSS so that I could see how nice of a website I could make. My friend Topblox helped me with the navigation bar.</p>
         </div>
         <div class="my-github">
             <h>My GitHub:</h>
             <p>If you are viewing this website then you are probably viewing it through my GitHub: <a href="https://github.com/KiwiCoder266">Click Here!</a>. I am new to GitHub so I am still trying to get the hang of things. I will be rolling out more projects soon. In the meantime, I hope you like this website :&#41</p>
         </div>
+    </div>
+    <div class="my-projects">
+        <h id="projects">My Projects<br></h>
+    </div>
+    <div class="fluxova">
+        <h>FLUXOVA</h>
+        <p>Fluxova is a made-up streaming service designed to showcase website design skills from me and my friend Topblox.<br><br>
+            We made certain elements of the website in Affinity Designer and the rest of it was made in Google sites.</p>
+        <a href="https://t.ly/fluxova">Fluxova website</a>
+    </div>
+    <div class="footer">
+        <h>KiwiCoder266   2024</h>
     </div>
 </body>
 </html>
