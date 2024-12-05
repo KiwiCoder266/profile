@@ -7,8 +7,8 @@
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/path/to/icon.png",
-      "sizes": "192x192",
+      "src": "favicon-www.stagecoachbus.com.png",
+      "sizes": "180x180",
       "type": "image/png"
     }
   ]
